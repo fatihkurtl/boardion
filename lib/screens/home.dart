@@ -17,9 +17,9 @@ class HomeScreen extends GetView<HomeController> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(
-              'lib/assets/boardion_logo.webp',
-              height: 24,
-              width: 24,
+              'lib/assets/boardion_logo.png',
+              height: 35,
+              width: 35,
               fit: BoxFit.contain,
             ),
             const SizedBox(width: 8),
